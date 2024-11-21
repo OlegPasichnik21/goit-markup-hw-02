@@ -1,0 +1,54 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+.text .link {
+  color: #2e2f42;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.effective {
+  background-color: #2e2f42;
+  width: 1440px;
+  height: 600px;
+}
+
+.post-title {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 56px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.07;
+}
+
+.strategy {
+  color: #2e2f42;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+}
+.strategy .strategy-p {
+  color: #434455;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+.button {
+  color: #ffffff;
+  background-color: #4d5ae5;
+  font-family: "Roboto" sans-serif;
+  font-weight: 500;
+}
+
+.address .address-callback {
+  color: #434455;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+}
