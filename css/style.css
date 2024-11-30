@@ -1,13 +1,24 @@
-body {
+.text .link:hover body {
   font-family: "Roboto", sans-serif;
-}
-.text .link {
   color: #2e2f42;
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
+  line-height: 24px;
+}
+
+.title {
+  font-family: "Raleway", sans-serif;
+}
+header {
+  width: 1440px;
+  height: 72px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.text .link {
   font-weight: 500;
   text-decoration: none;
-  list-style-type: none;
 }
 
 .effective {
@@ -16,9 +27,25 @@ body {
   height: 600px;
 }
 
+.button {
+  color: #ffffff;
+  font-weight: 500;
+  background-color: #4d5ae5;
+  cursor: pointer;
+  width: 169px;
+  height: 56px;
+  font-weight: 500;
+  border-radius: 4px;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  line-height: 1.5px;
+  letter-spacing: 0.4px;
+}
+
 .post-title {
   color: #ffffff;
-  font-family: "Roboto", sans-serif;
   font-size: 56px;
   font-weight: 700;
   text-align: center;
@@ -26,29 +53,33 @@ body {
 }
 
 .strategy {
-  color: #2e2f42;
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
 }
-.strategy .strategy-p {
+
+.strategy .strategy-s {
   color: #434455;
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
+  text-align: left;
 }
 
-.button {
-  color: #ffffff;
-  background-color: #4d5ae5;
-  font-family: "Roboto" sans-serif;
-  font-weight: 500;
+.strategy .strategy-p {
+  color: #434455;
+  text-align: center;
+}
+
+.strategy .strategy-d {
+  color: #434455;
+  text-align: center;
+}
+
+.strategy .strategy-t {
+  color: #434455;
+  text-align: center;
 }
 
 .address .address-callback {
   color: #434455;
-  font-family: "Roboto", sans-serif;
   font-size: 16px;
-  font-weight: 400;
   font-style: normal;
   text-decoration: none;
 }
